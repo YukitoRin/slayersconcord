@@ -1,0 +1,38 @@
+{
+    "plugins": [ "theme-api" , "image-captions" ],
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "_CAPTION_"
+        },
+        "theme-api": {
+            "theme": "dark",
+            "languages": [
+                {
+                    "lang":"player",
+                    "name":"Player",
+                    "default": true
+                },
+                {
+                    "lang":"ol",
+                    "name":"Open Legend"
+                },
+                {
+                    "lang":"dnd",
+                    "name":"D&D"
+                },
+                {
+                    "lang":"fc",
+                    "name":"Fate(core)"
+                },
+                {
+                    "lang":"fa",
+                    "name":"Fate(accel)"
+                },
+                {
+                    "lang":"dm",
+                    "name":"DM"
+                }
+            ]
+        }
+    }
+}
