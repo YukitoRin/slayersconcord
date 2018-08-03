@@ -1,11 +1,11 @@
 {
-    "plugins": [ "theme-api" , "image-captions" ],
+    "plugins": [ "theme-api" , "image-captions" , "-lunr" , "mermaid"],
     "pluginsConfig": {
         "image-captions": {
             "caption": "_CAPTION_"
         },
         "theme-api": {
-            "theme": "dark",
+            "theme": "light",
             "languages": [
                 {
                     "lang":"player",
